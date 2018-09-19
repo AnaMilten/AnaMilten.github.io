@@ -1,9 +1,131 @@
+}@font-face {
+  font-family: 'Aniron';
+  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/Aniron.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnironC';
+  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/AnironC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Tengwar Annatar';
+  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/TengwarAnnatar-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aniron';
+  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/Aniron-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Party Business';
+  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/PartyBusiness.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnironC';
+  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/AnironC-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+h1 {
+  font-family: 'AnironC';
+}
+
+h2 {
+  font-family: 'AnironC';
+}
+
+h3 {
+  font-family: 'AnironC';
+}
+
+h4 {
+  font-family: 'AnironC';
+}
+
+h5 {
+  font-family: 'AnironC';
+}
+
+.symbol {
+  font-family: 'Tengwar Annatar';
+  color: #ff6600;
+  font-size: 2em;
+}
+
 body {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Party Business';
   font-weight: 200;
   color:black;
   margin: 0px;
-  font-size: 16px;
+  font-size: 22px;
+}
+
+.lightbg {
+  background-image: url("/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/integration_maquette_finale/bg_light.png");
+  background-size: auto;
+}
+
+.darkbg {
+  color: white;
+  background-image: url("/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/integration_maquette_finale/bg_dark.png");
+  background-size: auto;
+}
+
+.nav-bg {
+  background-color: #ff6600;
+  color: white;
+}
+.navtitles {
+  font-family: 'AnironC';
+}
+
+.largeTexte {
+  font-family: 'Party Business';
+  font-size: 5rem;
+}
+
+.mediumTexte {
+  font-family: 'Party Business';
+  font-size: 3rem;
+}
+
+.littleTexte {
+  font-family: 'Party Business';
+  font-size: 2rem;
+}
+
+.fellowcards_bg {
+  background-color: #1A1A1A;
+}
+
+.text_card_fellows {
+  color: rgb(133, 133, 133);
+}
+
+.textBlack {
+  color: black;
+}
+
+.textWhite {
+  color: white;
 }
 
 .img-fluid {
@@ -25,6 +147,9 @@ body {
   margin: 2%;
 } 
 
+.active {
+  background-color: #ff6600;
+}
 .roundedImage {
   border-radius: 5%; 
 }
@@ -46,17 +171,18 @@ body {
 }
 
 .avatar2 {
-  background: url(https://zupimages.net/up/18/37/sjc5.jpg);
+  background: url(https://zupimages.net/up/18/09/69j0.png);
 }
 
 .avatar3 {
-  background: url(https://zupimages.net/up/18/37/ouxc.jpg);
+  background: url(https://zupimages.net/up/18/09/913e.png);
 }
+
 
 
 .avatar {
   display:block;
-  width: 300px;
+  width: 95%;
   height: 350px;
   padding: 20px;
   text-align: center;
@@ -75,7 +201,7 @@ body {
 .avatar::after {
   content: "";
   display: block;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(82, 78, 78, 0.4);
   top: 0;
   left: 0;
   width: 100%;
@@ -102,6 +228,16 @@ body {
 
 .rewardAmount {
   background-color:white;
+  opacity: 0.8;
+  font-size: 30px;
+  padding: 10px 45x;
+  margin: 0px;
+  text-align-last: center;
+  line-height: 1.3;
+  box-shadow: 0 0 0.2em 0.2em white;
+}
+
+.dead {
   opacity: 0.8;
   font-size: 30px;
   padding: 10px 45x;
@@ -146,7 +282,8 @@ body {
 .footer {
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: rgb(41, 38, 38);
+  color: white;
+  background-color: #ff6600;
 }
 
 
