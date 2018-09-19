@@ -79,13 +79,13 @@ body {
 }
 
 .lightbg {
-  background-image: url("/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/integration_maquette_finale/bg_light.png");
+  background-image: url("https://zupimages.net/up/18/09/buog.png");
   background-size: auto;
 }
 
 .darkbg {
   color: white;
-  background-image: url("/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/integration_maquette_finale/bg_dark.png");
+  background-image: url("https://zupimages.net/up/14/14/9dmx.png");
   background-size: auto;
 }
 
