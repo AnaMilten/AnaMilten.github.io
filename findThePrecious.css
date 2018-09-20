@@ -1,13 +1,13 @@
 }@font-face {
   font-family: 'Aniron';
-  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/Aniron.ttf') format('truetype');
+  src: url('Aniron.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AnironC';
-  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/AnironC.ttf') format('truetype');
+  src: url('AnironC.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,14 +15,14 @@
 
 @font-face {
   font-family: 'Tengwar Annatar';
-  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/TengwarAnnatar-Italic.ttf') format('truetype');
+  src: url('TengwarAnnatar-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Aniron';
-  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/Aniron-Bold.ttf') format('truetype');
+  src: url('AnironC-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -30,14 +30,14 @@
 
 @font-face {
   font-family: 'Party Business';
-  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/PartyBusiness.ttf') format('truetype');
+  src: url('PartyBusiness.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AnironC';
-  src: url('/home/anais/Bureau/Wild Code School/Quêtes hebdomadaires/semaine 2/intégration/font/AnironC-Bold.ttf') format('truetype');
+  src: url('AnironC-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -54,20 +54,33 @@ h2 {
 
 h3 {
   font-family: 'AnironC';
+  font-size: 2,5em;
+ 
 }
 
 h4 {
   font-family: 'AnironC';
+  font-size: 1,8em;
+ 
 }
 
 h5 {
   font-family: 'AnironC';
+  font-size: 1,5em;
+
+ 
+}
+
+.contact {
+  font-family: 'AnironC';
+  font-size: 1,5em;
+  color: #ff6600;
 }
 
 .symbol {
   font-family: 'Tengwar Annatar';
   color: #ff6600;
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 body {
@@ -99,17 +112,22 @@ body {
 
 .largeTexte {
   font-family: 'Party Business';
-  font-size: 5rem;
+  font-size: 6vw;
 }
 
 .mediumTexte {
   font-family: 'Party Business';
-  font-size: 3rem;
+  font-size: 5vw;
 }
 
 .littleTexte {
   font-family: 'Party Business';
-  font-size: 2rem;
+  font-size: 1,5em;
+}
+
+.section_padding {
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 .fellowcards_bg {
@@ -134,7 +152,7 @@ body {
 } 
 
 .carouselText {
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 .titles {
